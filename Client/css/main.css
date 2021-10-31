@@ -1,0 +1,22 @@
+html,
+body {
+    /* Optional: Makes the sample page fill the window. */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Optional: Align All Elemnts to Center. */
+    text-align: center;
+    margin: 0 auto;
+}
+
+p.detail,
+ul {
+    text-align: left;
+}
+
+#books_list {
+    cursor: pointer;
+}

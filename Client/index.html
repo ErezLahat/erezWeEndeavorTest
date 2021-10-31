@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Books Weendeavor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='js/main.js'></script>
+</head>
+
+<body>
+    <h1>Books And Authors</h1>
+    <hr>
+    <section id="books_section">
+        <h2>Books list</h2>
+        <ul id="books_list">
+
+        </ul>
+        <hr>
+        <p id="books_deatails:">
+            <h2>Book deatials</h2>
+            <p class='detail'><strong>Book Name: </strong><span id="book_name"></span</p>
+            <p class='detail'><strong>ISBN: </strong><span id="isbn"></span></p>
+            <p class='detail'><strong>Author Name: </strong><span id="author_name"></span></p>
+        </p>
+    </section>
+
+    <hr>
+    <section id='addAuthorForm'>
+        <h2>Add Author</h2>
+        <form>
+            <label for="first_name">First Name:</label>
+            <input id='first_name' type="text" /><br/>
+            <label for="last_name">Last Name:</label>
+            <input id='last_name' type="text" /><br/>
+            <button onclick='addAuthor();return false;'>Add Author</button>
+        </form>
+    </section>
+
+    <hr>
+    <section id='addBookForm'>
+        <h2>Add Book</h2>
+        <form>
+            <label for="book_name">Book Name:</label>
+            <input id='book_name' type="text" /><br/>
+            <label for="isbn">ISBN:</label>
+            <input id='isbn' type="text" /><br/>
+            <label for="author">Author:</label>
+            <select id='author_select_form'></select><br/>
+            <button onclick='addAuthor();return false;'>Add Author</button>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
